@@ -43,8 +43,13 @@ font-size: 14px;
   background-size: auto;
 }
 
-.footer {
+.footer p {
   color: white;
   font-size: 11px;
   background-color: dimgray;
+}
+
+.footer a {
+  color: white;
+  font-size: 14px;
 }
