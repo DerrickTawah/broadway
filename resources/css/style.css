@@ -14,3 +14,8 @@ background-size: auto;
   font-weight: bold;
   color: white;
 }
+
+#header a {
+  font-size: 18px;
+  color: white;
+}
