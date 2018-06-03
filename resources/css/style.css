@@ -40,5 +40,16 @@ font-size: 14px;
   color: white;
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
   background-repeat: no-repeat;
-  background-size: auto; 
+  background-size: auto;
+}
+
+#footer {
+  color: white;
+  font-size: 11px;
+  background-color: dimgray;
+  text-align: left !important;
+}
+
+#footer a {
+  font-size: 14px !important;
 }
