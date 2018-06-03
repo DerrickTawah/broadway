@@ -53,3 +53,7 @@ font-size: 14px;
   color: white;
   font-size: 14px;
 }
+
+.footer {
+text-align: left !important;
+}
