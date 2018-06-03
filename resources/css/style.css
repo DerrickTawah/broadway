@@ -1,4 +1,4 @@
-* {
+body {
   font-family: helvetica;
   text-align: center;
 }
@@ -43,9 +43,8 @@ font-size: 14px;
   background-size: auto;
 }
 
-#footer {
+.footer {
   color: white;
   font-size: 11px;
   background-color: dimgray;
-  text-align: left !important;
 }
