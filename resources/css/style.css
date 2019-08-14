@@ -1,117 +1,60 @@
 body {
   font-family: helvetica;
   text-align: center;
-  margin: 0 auto;
-  overflow: auto;
-  width: 100%;
+  margin: 0;
+  min-width: 1440px;
   height: auto;
 }
 
 #header {
-  display: block;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  background: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
   height: 40vh;
-  position: fixed;
-  top: 0;
-  z-index: 1;
+  width: 100%;
 }
 
 .logo {
   float: left;
+}
+
+.logo h1 {
+  color: #fFF;
+  font-size: 1.75rem;
+  font-weight: bold;
   padding-left: 1em;
 }
 
-.header-menu {
+nav {
   float: right;
-}
-
-#header h1 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: white;
-}
-
-#header nav {
   display: block;
-  list-style: none;
-  text-decoration: none;
+  margin-top: 1em;
+  margin-right: 1em;
 }
 
-nav > li {
+nav li {
   display: inline-block;
-  padding: 1em;
+  padding: 1.25em;
+  list-style: none;
 }
 
-#header a {
-  font-size: 1.05rem;
-  color: white;
+nav a {
   text-decoration: none;
-  padding: 0.5em;
-  background-color: dimgray;
+  color: #fff;
+  background-color: darkslategrey;
+  padding: .5em .75em;
+  border-radius: 5px;
 }
 
-#process .header {
-  text-align: center;
+nav a:hover {
+  text-decoration: none;
+  color: #333;
+  background-color: rgb(222, 241, 241);
+  padding: .75em;
+  border-radius: 5px;
 }
 
-
-.process-menus {
-  float: left;
-}
-
-.identify {
-  width: 33.33%;
-}
-
-.understand {
-  width: 33.33%;
-}
-
-.execute {
-  width: 33.33%;
-}
-
-#process-menus h2 {
-  font-size: 32px;
-  font-weight: bold;
-}
-
-h3 {
-  font-size: 23px;
-  font-weight: bold;
-}
-
-#work {
-  width: 100%;
-  height: 40vh;
-  clear: left;
-}
-
-#work h2 {
-  font-size: 23px;
-  font-weight: bold;
-  color: white;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: auto;
-  margin: 0 auto;
-}
-
-.footer p {
-  color: white;
-  font-size: 11px;
-  background-color: dimgray;
-}
-
-.footer a {
-  color: white;
-  font-size: 14px;
-}
-
-.footer {
-text-align: left !important;
+nav a:active {
+  border: 1px solid red;
+  border-radius: 5px;
 }
