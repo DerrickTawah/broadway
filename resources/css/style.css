@@ -1,17 +1,22 @@
 body {
   font-family: helvetica;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
   min-width: 1440px;
   height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 #header {
   background: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 40vh;
+  background-size: 100%;
+  height: 50vh;
   width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .logo {
@@ -47,14 +52,98 @@ nav a {
 }
 
 nav a:hover {
-  text-decoration: none;
+  text-decoration: inherit;
+  transition: 0.5s;
   color: #333;
   background-color: rgb(222, 241, 241);
-  padding: .75em;
+  padding: 0.5em 1em;
   border-radius: 5px;
+  border: 2px solid green;
 }
 
-nav a:active {
-  border: 1px solid red;
-  border-radius: 5px;
+.header h2::first-letter {
+  color: darkslategrey;
+  font-size: 3rem;
+}
+
+.header h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 1em;
+}
+
+#process {
+  margin-top: 310px;
+}
+
+.process-menus {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  padding: 2em;
+}
+
+.process-menus img {
+  width: 10em;
+  height: 3.5em;
+  padding: 1em;
+}
+
+.process-menus h3 {
+  font-size: 1.5rem;
+}
+
+.process-menus p {
+  font-size: 1.2rem;
+}
+
+.identify {
+  width: 33.33%;
+}
+
+.understand {
+  width: 33.33%;
+}
+
+.execute {
+  width: 33, 33%;
+}
+
+#work {
+  background: rgb(224, 221, 221);
+  width: 100%;
+  height: 20vh;
+  padding: 2em;
+}
+
+#team {
+  background: darkslategrey;
+  width: 100%;
+  height: 20vh;
+  padding: 2em;
+  border-left: 1px solid darkslategrey;
+  border-right: 1px solid darkslategrey;
+  margin: 0 auto;
+  color: white;
+}
+
+#contact {
+  background: rgb(224, 221, 221);
+  width: 100%;
+  height: 15vh;
+  padding: 2em;
+}
+
+.footer {
+  background: black;
+  color: white;
+  height: 5vh;
+  padding: 1em;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+  font-size: 1rem;
 }
