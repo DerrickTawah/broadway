@@ -119,7 +119,7 @@ nav a:hover {
 #team {
   background: darkslategrey;
   width: 100%;
-  height: 25vh;
+  height: 35vh;
   padding: 2em;
   border-left: 1px solid darkslategrey;
   border-right: 1px solid darkslategrey;
@@ -136,6 +136,11 @@ nav a:hover {
 #team>article div {
   width: 33.33%;
   padding: 1em;
+}
+
+#team>article img {
+  width: 8em;
+  height: 6em;
 }
 
 #team>article p {
