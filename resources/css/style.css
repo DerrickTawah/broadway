@@ -212,3 +212,88 @@ nav a:hover {
   padding: 1em;
   font-size: 1rem;
 }
+
+
+/*On small screens*/
+
+@media (max-width: 875px) {
+
+  #header {
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+  .logo {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  nav {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  nav li {
+    display: inline-block;
+    padding: .5em;
+    list-style: none;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    background-color: darkslategrey;
+    padding: .5em .5em;
+    border-radius: 5px;
+  }
+
+  nav a:hover {
+    text-decoration: inherit;
+    transition: 0.5s;
+    color: #333;
+    background-color: rgb(222, 241, 241);
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: 2px solid green;
+  }
+
+
+  .process {
+    margin-top: 8em;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .process-menus {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .process-menus>div {
+    margin: 0 auto;
+    width: 75%;
+    padding: 1.2em;
+  }
+
+  #team {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #team>article {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #team>article div {
+    margin: 0 auto;
+    width: 75%;
+  }
+
+}
