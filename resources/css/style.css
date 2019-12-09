@@ -112,12 +112,27 @@ nav a:hover {
   width: 33.33%;
 }
 
+.identify:hover {
+  background: rgb(223, 238, 204);
+  transition-duration: 0.5s;
+}
+
 .understand {
   width: 33.33%;
 }
 
+.understand:hover {
+  background: rgb(222, 241, 241);
+  transition: 0.5s;
+}
+
 .execute {
-  width: 33, 33%;
+  width: 33.33%;
+}
+
+.execute:hover {
+  background: rgb(240, 193, 193);
+  transition: 0.5s;
 }
 
 #work {
