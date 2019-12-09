@@ -21,7 +21,8 @@ h2 {
   background: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png');
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 50vh;
+  height: cover;
+  padding: 0 0 20em 0;
   width: 100%;
   position: fixed;
   top: 0;
@@ -82,14 +83,15 @@ nav a:hover {
 }
 
 #process {
-  margin-top: 22em;
+  margin-top: 18em;
 }
 
 .process-menus {
   display: flex;
   flex-flow: row;
-  width: 100%;
-  padding: 2em;
+  width: 90%;
+  padding: 1em;
+  margin: 0 auto;
 }
 
 .process-menus img {
@@ -121,14 +123,14 @@ nav a:hover {
 #work {
   background: rgb(224, 221, 221);
   width: 100%;
-  height: 20vh;
+  height: auto;
   padding: 2em;
 }
 
 #team {
   background: darkslategrey;
   width: 100%;
-  height: 35vh;
+  height: auto;
   padding: 2em;
   border-left: 1px solid darkslategrey;
   border-right: 1px solid darkslategrey;
@@ -139,7 +141,8 @@ nav a:hover {
 #team>article {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 #team>article div {
@@ -173,7 +176,7 @@ nav a:hover {
 #contact {
   background: rgb(224, 221, 221);
   width: 100%;
-  height: 15vh;
+  height: auto;
   padding: 2em;
   margin: 0 auto;
 }
@@ -182,7 +185,7 @@ nav a:hover {
   background: black;
   color: white;
   width: 100%;
-  height: 5vh;
+  height: auto;
   padding: 2em;
   margin: 0 auto;
 }
