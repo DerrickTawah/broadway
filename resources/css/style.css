@@ -119,12 +119,41 @@ nav a:hover {
 #team {
   background: darkslategrey;
   width: 100%;
-  height: 20vh;
+  height: 25vh;
   padding: 2em;
   border-left: 1px solid darkslategrey;
   border-right: 1px solid darkslategrey;
   margin: 0 auto;
   color: white;
+}
+
+#team>article {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#team>article div {
+  width: 33.33%;
+  padding: 1em;
+}
+
+#team>article p {
+  padding-bottom: 1em;
+}
+
+#team>article a {
+  text-decoration: none;
+  color: darkslategray;
+  padding: .5em;
+  background: #fff
+}
+
+#team>article a:hover {
+  border: 1px solid red;
+  background: darkslategray;
+  color: #fff;
+  transition: 0.5s;
 }
 
 #contact {
