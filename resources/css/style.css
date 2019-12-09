@@ -3,8 +3,8 @@ body {
   font-size: 16px;
   text-align: center;
   margin: 0 auto;
-  /* min-width: 1440px;
-  height: 100vh; */
+  /* min-width: 1440px;*/
+  height: 100%;
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -20,8 +20,8 @@ h2 {
 #header {
   background: url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png');
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: cover;
+  /* background-size: 100%; */
+  background-size: cover;
   padding: 0 0 20em 0;
   width: 100%;
   position: fixed;
@@ -83,7 +83,7 @@ nav a:hover {
 }
 
 #process {
-  margin-top: 18em;
+  margin-top: 24em;
 }
 
 .process-menus {
